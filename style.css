@@ -1,0 +1,59 @@
+#quizizz-container {
+
+  text-align: center;
+
+  padding: 20px;
+
+}
+
+#question-list {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+}
+
+.question-card {
+
+  width: 300px;
+
+  margin: 10px;
+
+  border: 1px solid gray;
+
+  padding: 20px;
+
+}
+
+.question-text {
+
+  font-weight: bold;
+
+  margin-bottom: 10px;
+
+}
+
+.answer-options {
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+.answer-options li {
+
+  margin-bottom: 10px;
+
+}
+
+.correct-answer {
+
+  background-color: green;
+
+}
