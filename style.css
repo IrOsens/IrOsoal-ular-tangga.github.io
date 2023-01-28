@@ -1,78 +1,118 @@
 body {
 
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
+  
+    font-family: Arial, sans-serif;
+  
+  }
+  
+  h1 {
+  
+    text-align: center;
+  
+    margin-top: 50px;
+  
+  }
 
-  font-family: Arial, sans-serif;
-
-}
-
-h1 {
-
-  text-align: center;
-
-  margin-top: 50px;
-
-}
-
-#question-container {
-
-  width: 80%;
-
-  margin: 0 auto;
-
-  text-align: center;
-
-}
-
-.question {
-
-  background-color: #fff;
-
-  padding: 20px;
-
-  border-radius: 10px;
-
-  box-shadow: 2px 2px 10px #ccc;
-
-}
-
-.answers {
-
-  margin-top: 20px;
-
-}
-
-.answer {
-
-  background-color: #2196f3;
-
-  color: #fff;
-
-  padding: 10px 20px;
-
-  border-radius: 5px;
-
-  margin-bottom: 10px;
-
-  cursor: pointer;
-
-}
-
-.answer:hover {
-
-  background-color: #1e88e5;
-
-}
-
-.correct {
-
-  background-color: #4caf50;
-
-}
-
-.incorrect {
-
-  background-color: #f44336;
-
-}
-
+  .relative {
+    position: relative;
+    top: -111px;
+  }
+  
+  #question-container {
+  
+    width: 70%;
+  
+    margin: 0 auto;
+  
+    text-align: center;
+  
+  }
+  
+  .question {
+  
+    background-color: #fff;
+  
+    padding: 110px;
+  
+    border-radius: 10px;
+  
+    box-shadow: 2px 2px 10px #ccc;
+  
+  }
+  
+  .answers {
+  
+    margin-top: -120px;
+  
+  }
+  
+  .answer {
+  
+    background-color: #2196f3;
+  
+    color: #fff;
+  
+    padding: 1px 20px;
+  
+    border-radius: 100px;
+  
+    width: 50px;
+  
+    margin-bottom: 4px;
+  
+    cursor: pointer;
+  
+  }
+  
+  .answer:hover {
+  
+    background-color: #1e88e5;
+  }
+  
+  .answers1{
+  
+    position: absolute;
+    margin-top: -627.5px;
+    right: 250px;
+  
+  }
+  
+  
+  .answer1 {
+  
+    background-color: #2196f3;
+  
+    color: #fff;
+  
+    padding: 1px 20px;
+  
+    border-radius: 100px;
+  
+    top: 200px; 
+  
+    width: 50px;
+  
+    margin-bottom: 4px;
+  
+    cursor: pointer;
+  
+  }
+  
+  .answer1:hover {
+  
+    background-color: #1e88e5;
+  }
+  
+  .correct {
+  
+    background-color: #4caf50;
+  
+  }
+  
+  .incorrect {
+  
+    background-color: #f44336;
+  
+  }
+  
