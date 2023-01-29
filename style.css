@@ -116,13 +116,17 @@ body {
   
   }
 
-#dice {
+  #dice {
     position: absolute;
     top: 400px;
     left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+#dice {
     width: 100px;
     height: 100px;
-    transform: translateX(-50%);
     margin: 0 auto;
   }
   
