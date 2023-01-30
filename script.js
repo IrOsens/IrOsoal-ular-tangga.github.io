@@ -15,23 +15,4 @@ dice.onclick = function() {
   },500);
 }
 
-//let answers = document.querySelectorAll(".answer");
-
-//for (let i = 0; i < answers.length; i++) {
-
- //answers[i].addEventListener("click", function() {
-
-    //if (this.id === "answer-1") {
-
-      //his.classList.add("correct");
-
-    //} else {
-
-      //this.classList.add("incorrect");
-
-    //}
-
-  //});
-
-//}
 

@@ -21,7 +21,7 @@ h1 {
 
 #question-container {
 
-  width: 70%;
+  width: 80%;
 
   margin: 0 auto;
 
@@ -69,10 +69,9 @@ h1 {
 }
 
 .answers1{
-
-  position: absolute;
+  position:absolute;
   margin-top: -620px;
-  right: 200px;
+  right: 0px;
 
 }
 
